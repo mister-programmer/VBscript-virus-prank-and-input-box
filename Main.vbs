@@ -8,18 +8,17 @@ x=msgbox("Your system has been hacked. .", 1+64,"MR.HACKER")
 x=msgbox("Your system has been hacked. .", 1+64,"MR.HACKER")
 x=msgbox("Your system has been hacked. .", 1+64,"MR.HACKER")
 Dim Message, Speak
-      	Message=InputBox("Now RREead To THe instructions carefully. As I hacked your system and encrypted all myour files so you cant aCCESS TheM, enter ok. Then click the button ok. Then follow whats written","Speak")
+      	Message=InputBox("Your message here","Speak")
       	Set Speak=CreateObject("sapi.spvoice")
       	Speak.Speak Message
-Message=InputBox("Now write your bank account number, password, credit and debit card numbers.","Speak")
+Message=InputBox("c","Speak")
       	Set Speak=CreateObject("sapi.spvoice")
       	Speak.Speak Message
-Message=InputBox("Now lets talk. first you answer me, then click space 2 times and write your question. And i shall answer. Now lets start What is your name.... ","Speak")
+Message=InputBox("Your message here. ","Speak")
       	Set Speak=CreateObject("sapi.spvoice")
       	Speak.Speak Message
-do
+
 Speak.Speak Message
-Message=InputBox("HA HA HA HA HA HA HA HA!!!!! Cheated you, I am not going to answer your question. I wanted to know your username and steal the money!! NNOW DONT  DONT TRY TO CLOSE THIS WINDOW AS IT NEVER CLOSES..... TRY YOURSELF ","Speak")
+Message=InputBox("Your message here","Speak")
       	Set Speak=CreateObject("sapi.spvoice")
       	Speak.Speak Message
-loop
